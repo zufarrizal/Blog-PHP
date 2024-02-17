@@ -8,3 +8,4 @@
 <p>Pagination: The website employs pagination to organize and display large amounts of content across multiple pages, enhancing user experience and ease of navigation.</p>
 
 <h3>Enjoy!</h3>
+<p>Maybe it will still be updated if I want to update it to a better website</p>
