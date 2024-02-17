@@ -50,6 +50,10 @@ p {
   margin-right: 5px;
 }
 
+.active button {
+  background-color: #ffd700;
+}
+
 footer {
   text-align: center;
   margin-top: 50px;
