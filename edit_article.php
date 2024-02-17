@@ -37,22 +37,22 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Artikel</title>
+    <title>Edit Article</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h2>Edit Artikel</h2>
+        <h2>Edit Article</h2>
         <form action="process_edit_article.php" method="post">
             <input type="hidden" name="article_id" value="<?php echo $article_id; ?>">
-            <label for="title">Judul:</label><br>
+            <label for="title">Title :</label><br>
             <input type="text" id="title" name="title" value="<?php echo $title; ?>"><br><br>
-            <label for="content">Konten:</label><br>
+            <label for="content">Content :</label><br>
             <textarea id="content" name="content" rows="5" cols="40"><?php echo $content; ?></textarea><br><br>
-            <input type="submit" value="Simpan Perubahan">
+            <input type="submit" value="Save Changes">
         </form>
-        <a href='index.php'><button>Kembali</button></a>
+        <a href='index.php'><button>Back</button></a>
         <footer>
             <p>© 2024 ZUFAR RIZAL. All rights reserved.</p>
         </footer>

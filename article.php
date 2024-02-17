@@ -43,7 +43,7 @@
                 echo "<hr/>";
                 echo "<p>" . $row["content"] . "</p>";
                 echo "</div>";
-                echo "<a href='index.php'><button>Kembali</button></a>";
+                echo "<a href='index.php'><button>Back</button></a>";
             } else {
                 echo "Artikel tidak ditemukan.";
             }

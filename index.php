@@ -14,7 +14,7 @@
     <header>
       <h1>ZUFAR RIZAL</h1>
       <p>Welcome to your space for jotting down your thoughts!</p>
-      <a href="add_article.php"><button>Tambah</button></a>
+      <a href="add_article.php"><button>Add</button></a>
     </header>
 
     <?php
@@ -57,7 +57,7 @@
         echo "</form>";
         echo "<form class='delete-form' action='delete_article.php' method='post'>";
         echo "<input type='hidden' name='article_id' value='" . $row['id'] . "'>";
-        echo "<input type='submit' value='Hapus'>";
+        echo "<input type='submit' value='Delete'>";
         echo "</form>";
         echo "</div>";
       }
