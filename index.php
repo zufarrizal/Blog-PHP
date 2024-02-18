@@ -51,7 +51,10 @@
         echo "<hr/>";
         echo "<p>" . $content_short . "...</p>";
         // Menampilkan tombol "Read more" dengan link ke halaman artikel lengkap
-        echo "<a href='article.php?id=" . $row['id'] . "' class='btn btn-primary'>Read More</a> ";
+        echo "<form class='edit-form' action='article.php' method='get'>";
+        echo "<input type='hidden' name='id' value='" . $row['id'] . "'>";
+        echo "<button type='submit' class='btn btn-primary'>Read More</button>";
+        echo "</form>";
         echo "<form class='edit-form' action='edit_article.php' method='get'>";
         echo "<input type='hidden' name='article_id' value='" . $row['id'] . "'>";
         echo "<input type='submit' class='btn btn-warning' value='Edit'>";

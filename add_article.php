@@ -25,7 +25,7 @@
                         <input type="text" class="form-control" id="title" name="title" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group mb-3">
-                        <textarea class="form-control" aria-label="With textarea" id="content" name="content" placeholder="Content"></textarea>
+                        <textarea class="form-control" aria-label="With textarea" id="content" name="content" rows="15" placeholder="Content"></textarea>
                     </div>
                     <input type="submit" class="btn btn-primary btn-block" value="Add">
                 </form>
