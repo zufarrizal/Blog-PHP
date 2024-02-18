@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 970px;
   margin: auto;
 }
 
@@ -48,10 +48,6 @@ p {
 .edit-form {
   display: inline;
   margin-right: 5px;
-}
-
-.active button {
-  background-color: #ffd700;
 }
 
 footer {
