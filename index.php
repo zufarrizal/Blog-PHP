@@ -82,11 +82,11 @@
 
     echo "<div class='pagination'>";
     if ($current_page > 1) {
-      echo "<a href='index.php?page=" . ($current_page - 1) . "' class='btn btn-primary active'>Prev</a>";
+      echo "<a href='index.php?page=" . ($current_page - 1) . "' class='btn btn-primary active'>Prev</a> &nbsp;";
     }
 
     for ($i = 1; $i <= $total_pages; $i++) {
-      echo "<a href='index.php?page=" . $i . "' class='btn btn-primary active" . ($current_page == $i ?: "") . "' > " . $i . " </a>";
+      echo "<a href='index.php?page=" . $i . "' class='btn btn-primary active" . ($current_page == $i ?: "") . "' > " . $i . " </a> &nbsp;";
     }
 
     if ($current_page < $total_pages) {
